@@ -1,0 +1,15 @@
+	SERVIDOR APACHE3
+
+CONTA AWS: cherifbekopanda@gmail.com
+Panet@84
+API LARAVEL: http://54.233.235.158/api/produtos
+PHP MAYADMIN : http://54.233.235.158/phpmyadmin/
+
+	SERVIDOR APACHE-NODE.JS
+
+
+CONTA AWS:netdigitalbrail@gmail.com
+Panet@84
+
+nuxt.js:	http://54.207.231.105/
+gerenciado pelo PM2 E APACHE proxy nuxt.js
