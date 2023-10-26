@@ -15,7 +15,16 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/logo_192.png' },
+      // Ícone para Android
+      { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/logo_192.png' },
+      
+      // Ícone para iPhone XR
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+
+      // Ícone para a barra de favoritos do Chrome
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+    
     ]
   },
   server: {
@@ -59,10 +68,11 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon: false, // Desabilitar a geração do favicon padrão
     manifest: {
       name: 'Nagumo-hortifruti',
       short_name: 'Hortifruti',
-      description: 'Repositorio de codigo da balança nagumo horti fruti',
+      description: 'Este aplicativo inovador foi projetado para tornar facil a pesquisa de Código  produtos horti-fruti',
       lang: 'pt-BR', // Código do idioma
       background_color: '#ffffff', // Cor de fundo da tela inicial
       theme_color: '#000000', // Cor do tema
