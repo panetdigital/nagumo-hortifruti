@@ -63,7 +63,7 @@ export default {
       try {
         // Certifique-se de adicionar o ID do produto à URL
         const productId = this.fruta.id; // Assumindo que o ID do produto está presente em fruta.id
-        const apiUrl = `http://54.233.235.158/api/produtos/${productId}`;
+        const apiUrl = `https://api.marketingonline.click/api/produtos/${productId}`;
 
         // Envie os dados atualizados para a API
         const response = await this.$axios.put(apiUrl, this.formFruta);

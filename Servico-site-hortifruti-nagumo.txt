@@ -2,8 +2,26 @@
 
 CONTA AWS: cherifbekopanda@gmail.com
 Panet@84
-API LARAVEL: http://54.233.235.158/api/produtos
+
+API LARAVEL: http://54.233.235.158/api/produtos 
+	      https://api.marketingonline.click/api/produtos
+
 PHP MAYADMIN : http://54.233.235.158/phpmyadmin/
+	      https://phpmyadmin.marketingonline.click/phpmyadmin
+root
+Panet@84
+--------------CLOUDFLARE -*-Certif -iSSL
+cherifbeko@yahoo.fr
+Panet@84
+----APONTAMENTO-----endpointe
+index
+listadetarefa
+listar-produtos-->FrutasTable
+listaDeProdutos
+FrutaForm.vue
+
+
+
 
 	SERVIDOR APACHE-NODE.JS
 

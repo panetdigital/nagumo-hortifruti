@@ -19,7 +19,7 @@
         <v-icon size="50px" class="icone-custom">mdi-account-circle
           
         </v-icon> 
-        <strong><span class="texto-custom">cherif@gmail.com</span></strong>
+        <strong><span class="texto-custom">cherifbekopanda@gmail.com</span></strong>
         <v-spacer></v-spacer>
         
       </template>
@@ -155,7 +155,7 @@
     </div>
 
     <div class="px-4 py-2 bg-black text-center w-100">
-        <strong>Copyright: by cherifbekopanda@gmail.com © {{ new Date().getFullYear() }}</strong>
+        <strong> © By Panda Sherif--{{ new Date().getFullYear() }}</strong>
     </div>
   </v-footer>
 </template>

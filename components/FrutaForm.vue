@@ -57,7 +57,7 @@
     async submitForm() {
       try {
         // Enviando dados do formulário para a API Adonis.js usando Axios
-        const response = await this.$axios.post('http://54.233.235.158/api/produtos', this.fruta);
+        const response = await this.$axios.post('https://api.marketingonline.click/api/produtos', this.fruta);
 
         console.log('Produto cadastrado com sucesso:', response.data);
        

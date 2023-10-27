@@ -48,7 +48,7 @@
       async carregarProdutos() {
         try {
           // Fazer chamada à API para obter a lista de produtos
-          const response = await this.$axios.get('http://15.228.47.247:3333/api/v1/produtos-hortifruti/');
+          const response = await this.$axios.get('https://api.marketingonline.click/api/produtos');
   
           // Atualizar o array de produtos com os dados recebidos
           this.produtos = response.data;

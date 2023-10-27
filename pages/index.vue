@@ -138,7 +138,9 @@ export default {
   methods: {
     async fetchFruitsFromApi() {
       try {
-        const response = await fetch('http://54.233.235.158/api/produtos'); // Substitua pela URL real
+        /* const response = await fetch('http://54.233.235.158/api/produtos'); */ // Substitua pela URL real
+
+        const response = await fetch('https://api.marketingonline.click/api/produtos');
         const data = await response.json();
         this.fruits = data;
       } catch (error) {
