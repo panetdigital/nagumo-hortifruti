@@ -1,5 +1,23 @@
 # nagumo-hortifruti
+## CLONAR NO GITHUB
 
+```bash
+git clone https://github.com/panetdigital/nagumo-hortifruti.git --branch  master
+```
+
+### observação com instalaco: installar nvm versao lts 20 de node
+```bash
+sudo apt update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+```
+```bash
+source ~/.nvm/nvm.sh
+```
+```bash
+nvm --version
+nvm install --lts
+```
 ## Build Setup
 
 ```bash
