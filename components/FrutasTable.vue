@@ -93,7 +93,7 @@ export default {
         this.loading = true;
         // Faça a chamada à API para obter a lista de frutas
         // Substitua 'http://sua-api.com/frutas' pelo seu endpoint real
-        const response = await this.$axios.get('https://api.marketingonline.click/api/produtos');
+        const response = await this.$axios.get('http://54.207.231.105:8989/api/produtos');
         this.frutas = response.data;
       } catch (error) {
         console.error('Erro ao carregar frutas:', error);

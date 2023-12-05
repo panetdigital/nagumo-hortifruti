@@ -41,6 +41,34 @@
 
            <v-divider></v-divider>
 
+           <v-list-item >
+
+              <nuxt-link to="/controle-de-estoque">
+                
+                <v-list-item-action>
+                  <v-icon size="20px" class="icone-custom">local_mall</v-icon> 
+                </v-list-item-action>
+                <span class="texto-custom">Controle de Estoque</span>
+              </nuxt-link>   
+
+              </v-list-item>
+
+              <v-divider></v-divider>
+
+              <v-list-item >
+
+                <nuxt-link to="/gestao-de-estoque">
+                  
+                  <v-list-item-action>
+                    <v-icon size="20px" class="icone-custom">inventory</v-icon> 
+                  </v-list-item-action>
+                  <span class="texto-custom">Gestão de estoque</span>
+                </nuxt-link>   
+
+                </v-list-item>
+
+                <v-divider></v-divider>
+
           <v-list-item >
             
             <nuxt-link to="/listatarefa">
