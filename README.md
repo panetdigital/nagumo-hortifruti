@@ -1,3 +1,4 @@
+installar nuxt de outra forma: npx create-nuxt-app nuxtjs
 # nagumo-hortifruti
 ## CLONAR NO GITHUB
 
