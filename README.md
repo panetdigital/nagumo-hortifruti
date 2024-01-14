@@ -40,6 +40,13 @@ $ npm run generate
 Observation: nao funcionar controle de estoque quando tiver usando https
 # 1. API laravel 10: para controle de estoque e inventario
   # execusao docker: imagem nginx e laravel 10, todo dentro de docker-composer.yld e docker file explica sobre configuraçao do ambiente
+   @comando para levantar projeto docker dentro da pasta laravel-10
+  ubuntu@ip-172-31-8-70:~$ cd /home/ubuntu/app-laravel/laravel-10-docker
+  ubuntu@ip-172-31-8-70:~/app-laravel/laravel-10-docker$ docker-compose up -d
+  ubuntu@ip-172-31-8-70:~/app-laravel/laravel-10-docker$ docker-compose exec app bash
+  ubuntu@ip-172-31-8-70:~/app-laravel/laravel-10-docker$ docker-compose exec app bash
+  carlos@95c4f2295aa2:/var/www$ composer install
+  carlos@95c4f2295aa2:/var/www$ php artisan key:generate
   laravel.api:porta:8989
   phpmyadmin:8080
   mysql:3636
