@@ -37,6 +37,7 @@ $ npm run generate
 ```
 # COMPOSITION DE PROJETO
 ------------------------
+Observation: nao funcionar controle de estoque quando tiver usando https
 # 1. API laravel 10: para controle de estoque e inventario
   # execusao docker: imagem nginx e laravel 10, todo dentro de docker-composer.yld e docker file explica sobre configuraçao do ambiente
   laravel.api:porta:8989
@@ -44,6 +45,8 @@ $ npm run generate
   mysql:3636
 # 2. api node express: para coleta do preço 
   porta:8081
+  arquivo: funcaochamada.js
+  pm2 mantem projeto em execusao
 # 3. camera.html: apache 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
