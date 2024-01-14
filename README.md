@@ -35,7 +35,16 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
+# COMPOSITION DE PROJETO
+------------------------
+# 1. API laravel 10: para controle de estoque e inventario
+  # execusao docker: imagem nginx e laravel 10, todo dentro de docker-composer.yld e docker file explica sobre configuraçao do ambiente
+  laravel.api:porta:8989
+  phpmyadmin:8080
+  mysql:3636
+# 2. api node express: para coleta do preço 
+  porta:8081
+# 3. camera.html: apache 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories
