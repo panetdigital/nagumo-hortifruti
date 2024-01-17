@@ -38,6 +38,13 @@ $ npm run generate
 # COMPOSITION DE PROJETO
 ------------------------
 Observation: nao funcionar controle de estoque quando tiver usando https
+# tenho virtualbox de Apache apontando nuxtjs porta 3000
+  diretorio config de apache2 
+  /etc/apache2/sites-available
+  arquivo: 000-default.conf
+  docker 2 apontamento
+    /home/ubuntu/app-laravel/laravel-10-docker  8989
+    phpmyadmin    8080
 # 1. API laravel 10: para controle de estoque e inventario
   # execusao docker: imagem nginx e laravel 10, todo dentro de docker-composer.yld e docker file explica sobre configuraçao do ambiente
    @comando para levantar projeto docker dentro da pasta laravel-10
