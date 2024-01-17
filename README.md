@@ -45,6 +45,10 @@ Observation: nao funcionar controle de estoque quando tiver usando https
   docker 2 apontamento
     /home/ubuntu/app-laravel/laravel-10-docker  8989
     phpmyadmin    8080
+ #node com execusão de raspagem dados porta 8081   
+   obsr ao executar projeto com pupperter instalar chromium
+   sudo apt install chromium-browser
+    
 # 1. API laravel 10: para controle de estoque e inventario
   # execusao docker: imagem nginx e laravel 10, todo dentro de docker-composer.yld e docker file explica sobre configuraçao do ambiente
    @comando para levantar projeto docker dentro da pasta laravel-10
